@@ -5,11 +5,11 @@ import pygwalker as pyg
 
 # Sample data for demonstration
 data = {
-    'Product': ['A', 'B', 'C', 'A', 'B'],
-    'Sales': [100, 150, 200, 120, 180],
-    'Region': ['East', 'West', 'East', 'West', 'East']
+    "Product": ["A", "B", "C", "A", "B"],
+    "Sales": [100, 150, 200, 120, 180],
+    "Region": ["East", "West", "East", "West", "East"],
 }
 df = pd.DataFrame(data)
 
 # Launches interactive Tableau-like interface in Jupyter
-pyg.walk(df, theme='light')
+pyg.walk(df, theme="light")
