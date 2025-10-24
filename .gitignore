@@ -5,10 +5,12 @@ build/
 dist/
 wheels/
 *.egg-info
+.ipynb_checkpoints/
 
 # Virtual environments
 .venv
 
 result.json
 cnn_diagram.png
+report.html
 .claude/
