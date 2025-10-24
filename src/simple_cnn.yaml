@@ -1,0 +1,18 @@
+
+layers:
+  - type: Input
+    shape: [28, 28, 1]
+  - type: Conv2D
+    filters: 32
+    kernel: [3, 3]
+  - type: MaxPool2D
+    pool: [2, 2]
+  - type: Dense
+    units: 10
+connections:
+  - from: Input
+    to: Conv2D
+  - from: Conv2D
+    to: MaxPool2D
+  - from: MaxPool2D
+    to: Dense
