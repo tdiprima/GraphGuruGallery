@@ -1,4 +1,5 @@
-# uses PyGWalker to turn a Pandas DataFrame into an interactive GUI for data exploration in Jupyter.
+# Uses PyGWalker to turn a Pandas DataFrame into an interactive GUI 
+# for data exploration in Jupyter.
 
 import pandas as pd
 import pygwalker as pyg

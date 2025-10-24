@@ -12,5 +12,5 @@ wheels/
 
 result.json
 cnn_diagram.png
-report.html
+*.html
 .claude/

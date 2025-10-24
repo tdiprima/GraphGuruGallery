@@ -1,4 +1,5 @@
-# creates a waffle chart using PyWaffle to visualize programming language popularity as percentages in a grid format.
+# Creates a waffle chart using PyWaffle to visualize 
+# programming language popularity as percentages in a grid format.
 
 import matplotlib.pyplot as plt
 from pywaffle import Waffle
