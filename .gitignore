@@ -11,6 +11,6 @@ wheels/
 .venv
 
 result.json
-cnn_diagram.png
+*.png
 *.html
 .claude/
